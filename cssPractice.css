@@ -1,0 +1,23 @@
+* {
+   margin: 0% 0%;
+}
+ 
+body {
+    background-color: black;
+    z-index: 3;
+}
+    
+div.mainDiv {
+    background-color: blue;
+    margin: 0 1em 1em 0;
+    text-align: center;
+}
+a.mainA {
+    text-decoration: none;
+    color: green;
+    font-size: 2em;
+}
+ul.mainUnorderedList {
+    padding: 0.5em 0.5em;
+    color: white;
+}
