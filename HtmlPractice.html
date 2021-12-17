@@ -25,9 +25,12 @@
 
     <span pan class="mainSpan">
         <img src="img/경북 용주사.png" alt="경북 용주사">
-        welcome to 경북 용주사!
-        <br />
-        경북사는 참 예뻤다!
+        <p>
+            welcome to 경북 용주사!
+
+            <br />
+            경북사는 참 예뻤다!
+        </p>
     </span>
     <div class="mainListDiv">
         <ul class="mainUnorderedList">
@@ -41,12 +44,50 @@
         This is first div tag
         <span> This is Span Tag
             <div>this is second div tag</div>
-        </span> 
+        </span>
     </div>
 
-    <label> input 요소 제목 </label>
+    <div class="inputdiv">
+        <label> input text </label>
+        <input type="text">
+    </div>
+
+    <label>아이디</label>
     <input type="text">
 
+    <label>password</label>
+    <input type="password">
+
+    <div class="checkboxDiv">
+        <h4>취미</h4>
+        <label for="sports">sports</label>
+        <input type="checkbox" value="sports">
+
+        <label for="frontend developer">frontend developer</label>
+        <input type="checkbox" value="frontend developer">
+
+        <label for="backend developer">backend developer</label>
+        <input type="checkbox" value="backend developer">
+    </div>
+
+    <div class="radioDiv">
+        <h4>직업</h4>
+
+        <label for="designer">UI/UX designer</label>
+        <input type="radio" name="job" value="design">
+
+        <label for="front-end dev">front-end dev</label>
+        <input type="radio" name="job" value="front-end dev">
+
+        <label for="backend developer">backend developer</label>
+        <input type="radio" name="job" value="backend developer">
+    </div>
+
+    <label>첨부파일</label>
+    <input type="file">
+
+    <label>색상 선택</label>
+    <input type="color">
 
 
 </body>

@@ -17,3 +17,10 @@
     * ol: ordered list
     * li: list using in ol, ul tag
   
+  * input, label
+    * input: create html form can transmmit another form
+    * label: can put in input tag label name 
+
+  * type: type can determine input tag types 
+    * text: can put 
+    
