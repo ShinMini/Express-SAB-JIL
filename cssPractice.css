@@ -3,7 +3,6 @@
 }
  
 body {
-    background-color: black;
     z-index: 3;
 }
     
@@ -16,8 +15,4 @@ a.mainA {
     text-decoration: none;
     color: green;
     font-size: 2em;
-}
-ul.mainUnorderedList {
-    padding: 0.5em 0.5em;
-    color: white;
 }
