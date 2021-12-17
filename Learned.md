@@ -22,5 +22,7 @@
     * label: can put in input tag label name 
 
   * type: type can determine input tag types 
-    * text: can put 
-    
+    * text: can put text using 
+    * password: can put text password
+    * checkbox: can check multiple components
+    * radio: can check one 
