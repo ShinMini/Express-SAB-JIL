@@ -1,0 +1,24 @@
+* {
+   margin: 0% 0%;
+   font-size: 1.2em;
+}
+ 
+body {
+    z-index: 3;
+}
+    
+div.mainDiv {
+    background-color: blue;
+    margin: 0 1em 1em 0;
+    text-align: center;
+    padding: 0.2em 0.2em 0.2em 0.2em; 
+}
+a.mainA {
+    text-decoration: none;
+    color: green;
+    font-size: 2em;
+}
+h2.mainEm {
+    color: green;
+    background-color: white;
+}
