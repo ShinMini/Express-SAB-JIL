@@ -34,6 +34,3 @@ is's the foundation of any data exchange on the Web and it's a client-sever prot
 
 * The term protocol suite refers to a set of smaller network protocols working in conjunction with each other.
 
-
-
-
