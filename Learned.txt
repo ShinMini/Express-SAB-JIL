@@ -77,4 +77,24 @@ Form tag must specify two attributes.
 ``` js
 // 오디오 태그 삽입할 경우, 여러 option 있으니, 상황에 따라 조절하며 사용 가능.
 <audio src="file direction" controls autoplay loop preload />
+
+// exmaple
+<body>
+    <audio src="img/calm.mp3" controls></audio>
+<body>
 ```
+
+## TIP
+* audio tag options description
+    * src -> link to audio player location 
+    * controls -> show to user control panel in display
+    * autoplay -> play auto set (not recommend)
+    * loop -> play audio loop (not recommend)
+    * preload -> can decrease loading time about prepare aduio player rendering
+
+---
+## !! video tag is almost similar audio tag
+* different tag description
+    * poster tag -> can show poster before starting video => 유튜브 썸내일 생각.
+
+
