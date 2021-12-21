@@ -65,4 +65,16 @@ Form tag must specify two attributes.
 	* form 태그에서 method를 활용해  데이터를 보낼 때, method로 정의한 방식을 통해 웹서버에게 데이터를 보내는다.
 	* 요청받은 웹서버(HTTP protocol)에서는 몇가지의 방법을 제공하는데
 	* 가장 대표적인 방법이 `GET`과 `POST` method이다. 
+---
+# tag input
+## <audio> : 확장 라이브러리 없이 오디오기능 삽입가능하다는 장점있다. 
+더 많은 툴을사용하고싶다면, 라이브러의 사용이 필요하지만, 최적화가 느려진다는 단점이 있다. 
+--> css, js를 사용해 일정수준의 변형이 가능하기 때문에, 영상 삽입 시 가급적 audio tag의 사용을 권장한다. 
+### notion: if you want more feature, 
+--> recomend that: insert video link in web component.
 
+* example : <audio>
+``` js
+// 오디오 태그 삽입할 경우, 여러 option 있으니, 상황에 따라 조절하며 사용 가능.
+<audio src="file direction" controls autoplay loop preload />
+```
