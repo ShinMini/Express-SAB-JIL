@@ -73,7 +73,7 @@ border: 1px solid red;
 *  -> :hover는 선택한 요소 위에 마우스 포인터를 올렸을 때 스타일을 적용하라는 의미이다. 
 * 2] :before, :after
 h2:before {
-content: "before content";
+content: "beforontent";
 color: blue;
 }
 
@@ -83,8 +83,11 @@ content: "after content"
    }
 
 ## 결과: 저장 후 웹을 리로드해 h2 요소 안을 살펴보면, HTML 파일에서 입력하지 않은 ::before와 ::after라는 가상의 요소가 생성된다. 
+
 * --> CSS file에서 content 속성에 입력한 before content, after content가, HTML에서 작성한 기존 h2 태그 택스트(안뇽!)의 앞(:before), 뒤(:after)에 가상 콘텐츠를 만든다. 
 
 ---
+
 ### content 속성은 html의 속성에 해당하는 components의  text를 변경할 수 있다. -> context 변경 가능. 
 
+  9. 클래스 선택자 - html tag의 클래스를 선택해 요소에 스타일을 적용시킬 수 있다. 
