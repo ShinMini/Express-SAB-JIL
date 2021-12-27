@@ -102,6 +102,16 @@ content: "after content"
 2. object-fit: fill, cover, contian;
 3. z-index: 1, 2 ... ; // z-index value가 높은 요소를 무조건 위로 올린다. 
 4. opacity: 0~1; // 투명도 설정, 0 -> 투명, 1 -> 불투명
+5. text-shadow: (n)px, (n)px, (n)px, #nnn;  // 입력값은 box-shadow속성값과 같다
+6. border-radius: px, % // 모서리를 속성값만큼 둥글게 만든다. 
+7. linear-gradient(방향, 색상1, 생상2)      // 직선 모양의 그레이디언트를 적용한다. 
+8. radial-gradient(생상1, 생상2)        // 타원 모양의 그레이디언트를 적용한다. 
+
+* gradient: 한쪽으로 갈 수록 점차 옅어지는 색상 적용.
+9. filter: (blur, brightness, contrast, grayscale, hue-rotate, invert, saturate, sepia)     
+* 요소의 (흐림, 밝기, 명도 대비, 흑백, 색상 단계, 색상 반전 단계, 채도, 갈색 톤)을 조절한다. 
 
 ---
+
+
 
