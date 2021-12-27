@@ -90,4 +90,18 @@ content: "after content"
 
 ### content 속성은 html의 속성에 해당하는 components의  text를 변경할 수 있다. -> context 변경 가능. 
 
-  9. 클래스 선택자 - html tag의 클래스를 선택해 요소에 스타일을 적용시킬 수 있다. 
+9. 클래스 선택자 - html tag의 클래스를 선택해 요소에 스타일을 적용시킬 수 있다. 
+
+---
+
+## 오늘 배운 css 속성
+
+* remind today's learned.
+
+1. nth-of-child(n);
+2. object-fit: fill, cover, contian;
+3. z-index: 1, 2 ... ; // z-index value가 높은 요소를 무조건 위로 올린다. 
+4. opacity: 0~1; // 투명도 설정, 0 -> 투명, 1 -> 불투명
+
+---
+
