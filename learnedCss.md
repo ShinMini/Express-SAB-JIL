@@ -140,3 +140,10 @@ content: "after content"
 > 속성명
 > transfrom-origin
 >>  가로축, 세로축 -> 요소의 변형이 일어나는 중심축을 가로축, 세로축 기준으로 변경할 수 있다. 
+
+---
+
+
+* transform-origin -> element의 가로축, 세로축 위치 지정
+  * ex) transform-origin: right center;
+  * transform-origin: 첫번째 속성=가로축, 두번째 속성=세로축.
