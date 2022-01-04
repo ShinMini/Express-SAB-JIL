@@ -19,12 +19,38 @@ body {
     background-color: #ebfaff;
 }
 
-section {
-width: 340px;
-padding: 30px;
-background-color: #fff;
-margin: 50px auto;
-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
+section { width: 340px; padding: 30px; background-color: #fff; margin: 50px auto; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1); border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
 }
 
+section nav.menu {
+    width: 100%;
+}
+
+/* nav 태그 내 display setting 하는 css atrribute 설정 */
+section nav.menu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section nav.menu a {
+    font-size: 20px;
+    color: #666;
+}
+
+section nav.menu a:nth-child(1) {
+    float: left;
+}
+
+section nav.menu a:nth-child(2) {
+    float: right;
+}
+
+section article.profile {
+    width: 100%;
+    text-align: center;
+}
+
+section article.profile img {
+    width: 200
+}
