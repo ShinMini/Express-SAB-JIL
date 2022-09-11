@@ -1,5 +1,6 @@
-# webPractice
+# SERVER에 대해 공부한 내용
 
-기본적인 웹의 구성 요인과 웹페이지와 서버간의 교류 및 원리 탐구.. 
-
-몇가지의 기본적인 예시와 함께 공부.
+1. [CSS 기초](CSS기초.md)
+2. [Form 태그란?](Form태그란.md)
+3. [HTTP 작동원리](HTTP작동원리.md)
+4. [직접 express를 사용해 server 구현해보기](server.js)
