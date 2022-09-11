@@ -1,16 +1,17 @@
 # 공부한 것 무지성 기록장
 
-1. HTML
-
+# 기본 태그 속성
 * Tag
   * strong, em 
     * strong: bold font
     * em: italic
+
   * div, span ->
     * div: block element 
     * sapn: inline element
       * This means that to use them semantically, divs should be used to wrap sections of a document, while spans should be used small portions of text, images etc...
-  * ul, ol, li
+  
+   * ul, ol, li
     * ul: unordered list
     * ol: ordered list
     * li: list using in ol, ul tag
@@ -28,6 +29,7 @@
 	* select: print drop down menu to web page 
 ---
 
+# form 태그
 <textarea> : 많은 택스트를 입력받을 때, 
 
 <form>: 여러 입력 양식을 그룹화하고 전송하기.
@@ -96,38 +98,3 @@ Form tag must specify two attributes.
 ## !! video tag is almost similar audio tag
 * different tag description
     * poster tag -> can show poster before starting video => 유튜브 썸내일 생각.
-
-
---- 21/12/27
-# 갑자기 css의 속성 중 nth-child()와 nth-of-type()의 차이점이 궁금해짐. 
-
-1. 주사용법은 비슷함. 대부분의 상황에서 같은 결과를 기대할 수 있다. 
-But, different things are: 
-
-1. nth-child()는 paragraph element이다. 
-2. nth-child()의 의미는 parent로 부터 파생되므로, 부모 요소가 없을 경우 적용되지 않는다. 이후 예를 들어 설명. 
-
-하지만. nth-of-type selector의 경우, 
-1. select the second paragraph child of parent이다. 
-때문에, 조건이 부족한 상황에서(부모요소가 확실한 경우가 아닌상황)에서 nth-child()보다 유용하다. 
-* 애초에 부모요소 확실하지 않은 상황에서 selector사용해서 막다루지 말자;
-
-* example
-``` html
-<section>
-    <h1>Words</h1>
-    <p>Little</p>
-    <p>Piggy</p>
-</section>
-```
-* 이런 상황에서 p 태그에 style을 적용시키려 할 때, 
-
-``` Css
-p:nth-child(2) {color: red; } /* 얘는 안됨. */
-
-p:nth-of-type(2) { color: red; } /* 얘는 됨. */
-```
-
-흠.. 결론: 프로젝트 규모가 커질 수록 nth-child가 더 유용할 것 같으나. -> 부모요소에 따라 style적용이 가능하기 때문에, css 속성 부여가 많아지는 상황에도 유지보수가 유리함. 
-
-웹사이트의 규모가 작고, 직관적으로 css style을 다룰 수 있는 상황에서는 nth-of-type()으로 style을 적용시키는 것이 유리할 것 같다. 
